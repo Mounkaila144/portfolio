@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Mounkaila Boubacar</title>
+    <meta name="description" content="Portfolio de Mounkaila Boubacar, Développeur Fullstack">
+    <meta name="keywords" content="Mounkaila Boubacar, Développeur Fullstack, Niamey, Portfolio">
+    <meta name="author" content="Mounkaila Boubacar">
+    <meta name="website" content="https://nigerdev.com">
+    <meta name="email" content="Mounkaila144@gmail.com">
+    <meta name="version" content="1.0.0">
+    <!-- favicon -->
+    <link href="assets/images/favicon.ico" rel="shortcut icon">
+
+    <!-- Css -->
+    <!-- Main Css -->
+    <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
+    <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
+    <link href="assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet">
+    <link href="assets/libs/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/tailwind.css">
+</head>
+    
+    <body class="font-poppins text-base text-black dark:text-white dark:bg-slate-900">
+
+
+        
+        <!-- Navbar Start -->
+        <nav class="navbar" id="navbar">
+            <div class="container flex flex-wrap items-center justify-between">
+                <a class="navbar-brand md:me-8" href="index.html">
+                    <!-- Logo personnalisé -->
+                    <img src="assets/images/logo-d.png" width="150" class="inline-block dark:hidden" alt="Logo clair">
+                    <img src="assets/images/logo-w.png" width="150" class="hidden dark:inline-block" alt="Logo sombre">
+                </a>
+
+                <!-- Icônes de réseaux sociaux adaptés -->
+                <div class="nav-icons flex items-center lg_992:order-2 ms-auto md:ms-8">
+                    <ul class="list-none menu-social mb-0">
+                        <li class="inline">
+                            <a href="https://nigerdev.com" target="_blank">
+                        <span class="login-btn-primary">
+                            <span class="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white">
+                                <i class="uil uil-globe align-middle"></i>
+                            </span>
+                        </span>
+                            </a>
+                            <a href="https://github.com/Mounkaila144" target="_blank">
+                        <span class="login-btn-primary">
+                            <span class="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white">
+                                <i class="uil uil-github align-middle"></i>
+                            </span>
+                        </span>
+                            </a>
+                            <a href="https://linkedin.com/in/tonprofil" target="_blank">
+                        <span class="login-btn-primary">
+                            <span class="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white">
+                                <i class="uil uil-linkedin align-middle"></i>
+                            </span>
+                        </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Bouton pour menu mobile -->
+                    <button data-collapse="menu-collapse" type="button" class="collapse-btn inline-flex items-center ms-2 text-dark dark:text-white lg_992:hidden" aria-controls="menu-collapse" aria-expanded="false">
+                        <span class="sr-only">Menu de navigation</span>
+                        <i class="mdi mdi-menu text-[24px]"></i>
+                    </button>
+                </div>
+
+                <!-- Menu de navigation principal -->
+                <div class="navigation lg_992:order-1 lg_992:flex hidden me-auto" id="menu-collapse">
+                    <ul class="navbar-nav" id="navbar-navlist">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">À Propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Expérience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Formation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#project">Projets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Compétences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Navbar End -->
+
+        <!-- Start Hero -->
+        <section class="relative pt-28 personal-wrapper overflow-hidden bg-amber-500/5" id="home">
+            <div class="container">
+                <div class="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
+                    <div>
+                        <h4 class="font-bold lg:text-[40px] text-3xl lg:leading-normal leading-normal mb-4">Salut! Je suis <br>
+                            <span class="typewrite text-amber-500" data-period="2000" data-type='[ "Mounkaila Boubacar", "Développeur FullStack", "Passionné par le Développement Web" ]'>
+                        <span class="wrap"></span>
+                    </span>
+                        </h4>
+                        <p class="text-slate-400 max-w-xl">Développeur FullStack avec 4 ans d'expérience, spécialisé dans la création de sites web et applications performants et sécurisés. Je suis passionné par l'innovation technologique et engagé à fournir des solutions de haute qualité adaptées aux besoins des clients.</p>
+                        <div class="mt-6">
+                            <a href="https://wa.me/22797977199" class="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md">Contactez-moi</a>
+                            <a href="assets/images/cv.pdf" class="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md ms-1">Mon CV</a>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="assets/images/hero/2.png" alt="Mounkaila Boubacar">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <div class="relative">
+            <div class="absolute block w-full h-auto bottom-[25px] z-1 left-0">
+                <a href="#about"><i class="mdi mdi-arrow-down absolute top-0 left-0 right-0 text-center inline-flex items-center justify-center rounded-full bg-white dark:bg-slate-900 h-12 w-12 mx-auto shadow-md dark:shadow-gray-800"></i></a>
+            </div>
+        </div>
+        <!-- End Hero -->
+
+        <!-- Start -->
+        <section class="relative md:py-24 py-16" id="about">
+            <div class="container">
+                <div class="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
+                    <div class="lg:col-span-5 lg:px-8">
+                        <div class="relative">
+                            <!-- Remplace l'image par une photo de profil appropriée -->
+                            <img src="assets/images/hero/3.png" class="rounded-full shadow-md shadow-gray-200 dark:shadow-gray-800" alt="Mounkaila Boubacar">
+
+                            <!-- Détails sur ton expérience et ton parcours académique -->
+                            <div class="absolute lg:bottom-20 md:bottom-10 bottom-6 ltr:lg:-right-16 rtl:lg:-left-16 ltr:md:-right-8 rtl:md:-left-8 ltr:right-0 rtl:left-0 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
+                                <h6 class="font-semibold">Développeur FullStack</h6>
+                                <span class="text-2xl font-medium text-amber-500 mb-0">4<sup> ans</sup> d'expérience</span>
+                                <span class="text-sm text-slate-400">Niamey, Niger</span>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="lg:col-span-7">
+                        <div class="lg:ms-5">
+                            <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">À Propos de Moi</h3>
+
+                            <!-- Mise à jour de la description pour refléter ton profil -->
+                            <p class="text-slate-400 max-w-xl text-[15px]">Développeur FullStack avec une expérience de 4 ans dans le développement web. Je suis spécialisé dans la création de solutions logicielles complètes, de la conception du front-end à l'intégration du back-end. Passionné par les nouvelles technologies et l'optimisation des performances des applications, je m'engage à fournir des solutions robustes et évolutives.</p>
+                            <p class="text-slate-400 max-w-xl text-[15px] mt-6">J'ai travaillé sur divers projets, de la création de sites web responsives à la gestion de systèmes CRM complexes, et je suis toujours à la recherche de nouveaux défis pour continuer à apprendre et à me développer en tant que professionnel.</p>
+
+                            <div class="mt-6">
+                                <!-- Lien pour voir tes projets -->
+                                <a href="#project" class="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md me-2 mt-2">Voir Mes Projets</a>
+                            </div>
+                        </div>
+                    </div><!--end grid-->
+
+                </div><!--end grid-->
+            </div><!--end container-->
+
+
+            <div class="container md:mt-24 mt-16">
+                <div class="grid grid-cols-1 pb-8 text-center">
+                    <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Mes Frameworks</h3>
+                    <p class="text-slate-400 max-w-xl mx-auto text-[15px]">Voici une liste des principaux frameworks que j'utilise pour le développement web et mobile. Ces outils me permettent de créer des applications robustes et évolutives.</p>
+                </div><!--end grid-->
+
+                <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
+                    <!-- Card Laravel -->
+                    <div class="flex group shadow shadow-gray-200 dark:shadow-gray-800 dark:hover:shadow-gray-700 items-center p-3 rounded-lg bg-white dark:bg-slate-900">
+                        <div class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-red-100 group-hover:bg-red-500 text-red-500 group-hover:text-white text-center rounded-xl me-5 transition-all duration-500">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" class="h-6 w-6 rotate-45" alt="Laravel Logo"/>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="mb-0 text-[17px] font-medium">Laravel</h4>
+                        </div>
+                    </div><!--end content-->
+
+                    <!-- Card Symfony -->
+                    <div class="flex group shadow shadow-gray-200 dark:shadow-gray-800 dark:hover:shadow-gray-700 items-center p-3 rounded-lg bg-white dark:bg-slate-900">
+                        <div class="bg-white flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-gray-100 group-hover:bg-gray-500 text-gray-500 group-hover:text-white text-center rounded-xl me-5 transition-all duration-500">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg" class="h-6 w-6 rotate-45" alt="Symfony Logo"/>
+                        </div>
+                        <div class="flex-1 ">
+                            <h4 class="mb-0 text-[17px] font-medium">Symfony</h4>
+                        </div>
+                    </div><!--end content-->
+
+                    <!-- Card React -->
+                    <div class="flex group shadow shadow-gray-200 dark:shadow-gray-800 dark:hover:shadow-gray-700 items-center p-3 rounded-lg bg-white dark:bg-slate-900">
+                        <div class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-blue-100 group-hover:bg-blue-500 text-blue-500 group-hover:text-white text-center rounded-xl me-5 transition-all duration-500">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="h-6 w-6 rotate-45" alt="React Logo"/>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="mb-0 text-[17px] font-medium">React</h4>
+                        </div>
+                    </div><!--end content-->
+
+                    <!-- Card Vue.js -->
+                    <div class="flex group shadow shadow-gray-200 dark:shadow-gray-800 dark:hover:shadow-gray-700 items-center p-3 rounded-lg bg-white dark:bg-slate-900">
+                        <div class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-green-100 group-hover:bg-green-500 text-green-500 group-hover:text-white text-center rounded-xl me-5 transition-all duration-500">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" class="h-6 w-6 rotate-45" alt="Vue.js Logo"/>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="mb-0 text-[17px] font-medium">Vue.js</h4>
+                        </div>
+                    </div><!--end content-->
+
+                    <!-- Card Node.js -->
+                    <div class="flex group shadow shadow-gray-200 dark:shadow-gray-800 dark:hover:shadow-gray-700 items-center p-3 rounded-lg bg-white dark:bg-slate-900">
+                        <div class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-green-200 group-hover:bg-green-500 text-green-600 group-hover:text-white text-center rounded-xl me-5 transition-all duration-500">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" class="h-6 w-6 rotate-45" alt="Node.js Logo"/>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="mb-0 text-[17px] font-medium">Node.js</h4>
+                        </div>
+                    </div><!--end content-->
+
+                    <!-- Card Next.js -->
+                    <div class="flex group shadow shadow-gray-200 dark:shadow-gray-800 dark:hover:shadow-gray-700 items-center p-3 rounded-lg bg-white dark:bg-slate-900">
+                        <div class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-gray-200 group-hover:bg-gray-500 text-gray-600 group-hover:text-white text-center rounded-xl me-5 transition-all duration-500">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" class="h-6 w-6 rotate-45" alt="Next.js Logo"/>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="mb-0 text-[17px] font-medium">Next.js</h4>
+                        </div>
+                    </div><!--end content-->
+
+                    <!-- Card Flutter -->
+                    <div class="flex group shadow shadow-gray-200 dark:shadow-gray-800 dark:hover:shadow-gray-700 items-center p-3 rounded-lg bg-white dark:bg-slate-900">
+                        <div class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-blue-100 group-hover:bg-blue-500 text-blue-500 group-hover:text-white text-center rounded-xl me-5 transition-all duration-500">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" class="h-6 w-6 rotate-45" alt="Flutter Logo"/>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="mb-0 text-[17px] font-medium">Flutter</h4>
+                        </div>
+                    </div><!--end content-->
+
+                    <!-- Card Bootstrap -->
+                    <div class="flex group shadow shadow-gray-200 dark:shadow-gray-800 dark:hover:shadow-gray-700 items-center p-3 rounded-lg bg-white dark:bg-slate-900">
+                        <div class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-purple-100 group-hover:bg-purple-500 text-purple-500 group-hover:text-white text-center rounded-xl me-5 transition-all duration-500">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" class="h-6 w-6 rotate-45" alt="Bootstrap Logo"/>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="mb-0 text-[17px] font-medium">Bootstrap</h4>
+                        </div>
+                    </div><!--end content-->
+
+                </div><!--end grid-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Start -->
+        <section class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="service">
+            <div class="container">
+                <div class="grid grid-cols-1 pb-8 text-center">
+                    <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Ce que j'offre</h3>
+                    <!-- Mise à jour de la description pour correspondre à ton profil -->
+                    <p class="text-slate-400 max-w-xl mx-auto text-[15px]">
+                        En tant que développeur FullStack avec 4 ans d'expérience, je propose des solutions complètes de développement web et mobile. Mes compétences couvrent tout le processus de création, de la conception initiale à la mise en production, avec un accent sur la performance, la sécurité et l'expérience utilisateur.
+                    </p>
+                </div><!--end grid-->
+
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
+
+                    <!-- Gestion de Projet -->
+                    <div class="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900">
+                        <i data-feather="layers" class="h-10 w-10 stroke-1 text-amber-500"></i>
+                        <div class="content mt-7">
+                            <a href="" class="title h5 text-[17px] font-medium hover:text-amber-500">Gestion de Projet</a>
+                            <p class="text-slate-400 mt-3 text-[15px]">Planification, coordination et livraison de projets complexes avec des équipes multidisciplinaires, en respectant les délais et les budgets définis.</p>
+                            <div class="mt-5">
+                                <a href="" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">En savoir plus <i class="uil uil-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Création de Sites Web -->
+                    <div class="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900">
+                        <i data-feather="server" class="h-10 w-10 stroke-1 text-amber-500"></i>
+                        <div class="content mt-7">
+                            <a href="" class="title h5 text-[17px] font-medium hover:text-amber-500">Création de Sites Web</a>
+                            <p class="text-slate-400 mt-3 text-[15px]">Développement de sites web dynamiques et performants, adaptés aux besoins des clients, avec une interface utilisateur fluide et une expérience utilisateur optimisée.</p>
+                            <div class="mt-5">
+                                <a href="" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">En savoir plus <i class="uil uil-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sécurité Web -->
+                    <div class="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900">
+                        <i data-feather="settings" class="h-10 w-10 stroke-1 text-amber-500"></i>
+                        <div class="content mt-7">
+                            <a href="" class="title h5 text-[17px] font-medium hover:text-amber-500">Sécurité Web</a>
+                            <p class="text-slate-400 mt-3 text-[15px]">Mise en œuvre de pratiques de sécurité avancées pour protéger les applications et les sites web contre les menaces potentielles, en assurant la confidentialité et l'intégrité des données.</p>
+                            <div class="mt-5">
+                                <a href="" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">En savoir plus <i class="uil uil-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Développement Mobile -->
+                    <div class="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900">
+                        <i data-feather="smartphone" class="h-10 w-10 stroke-1 text-amber-500"></i>
+                        <div class="content mt-7">
+                            <a href="" class="title h5 text-[17px] font-medium hover:text-amber-500">Développement Mobile</a>
+                            <p class="text-slate-400 mt-3 text-[15px]">Création d'applications mobiles natives et hybrides utilisant Flutter, avec une interface utilisateur moderne et des performances optimisées pour différents appareils.</p>
+                            <div class="mt-5">
+                                <a href="" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">En savoir plus <i class="uil uil-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- DevOps -->
+                    <div class="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900">
+                        <i data-feather="layers" class="h-10 w-10 stroke-1 text-amber-500"></i>
+                        <div class="content mt-7">
+                            <a href="" class="title h5 text-[17px] font-medium hover:text-amber-500">DevOps</a>
+                            <p class="text-slate-400 mt-3 text-[15px]">Automatisation des déploiements, gestion des infrastructures et surveillance continue pour garantir la disponibilité et la performance des applications.</p>
+                            <div class="mt-5">
+                                <a href="" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">En savoir plus <i class="uil uil-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Conception Graphique -->
+                    <div class="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900">
+                        <i data-feather="compass" class="h-10 w-10 stroke-1 text-amber-500"></i>
+                        <div class="content mt-7">
+                            <a href="" class="title h5 text-[17px] font-medium hover:text-amber-500">Conception Graphique</a>
+                            <p class="text-slate-400 mt-3 text-[15px]">Création d'interfaces utilisateur attrayantes et intuitives pour améliorer l'expérience utilisateur sur les applications web et mobiles.</p>
+                            <div class="mt-5">
+                                <a href="" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">En savoir plus <i class="uil uil-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Support Continu 24/7 -->
+                    <div class="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900">
+                        <i data-feather="watch" class="h-10 w-10 stroke-1 text-amber-500"></i>
+                        <div class="content mt-7">
+                            <a href="" class="title h5 text-[17px] font-medium hover:text-amber-500">Support Continu 24/7</a>
+                            <p class="text-slate-400 mt-3 text-[15px]">Assistance continue pour la maintenance et la résolution des problèmes, assurant le bon fonctionnement des applications à tout moment.</p>
+                            <div class="mt-5">
+                                <a href="" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">En savoir plus <i class="uil uil-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end grid-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Start -->
+        <!-- Start -->
+        <section class="py-20 w-full table relative bg-[url('../../assets/images/bg/bg2.jpg')] bg-no-repeat bg-center bg-cover">
+            <div class="absolute inset-0 bg-slate-900/70"></div>
+            <div class="container relative">
+                <div class="grid grid-cols-1 pb-8 text-center">
+                    <h3 class="mb-4 md:text-2xl text-xl text-white font-semibold">Disponible pour des projets en freelance</h3>
+                    <p class="text-white/80 max-w-xl mx-auto text-[15px]">
+                        Développeur FullStack avec 4 ans d'expérience, je suis disponible pour des collaborations en freelance. J'ai acquis une solide expertise en développement web et mobile, et je suis prêt à apporter mes compétences à des projets innovants.
+                    </p>
+                    <div class="relative mt-8">
+                        <a href="#contact" class="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md">Engagez-moi</a>
+                    </div>
+                </div><!--end grid-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Start -->
+        <section class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="experience">
+            <div class="container">
+                <div class="grid grid-cols-1 pb-8 text-center">
+                    <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Expérience Professionnelle</h3>
+                    <p class="text-slate-400 max-w-xl mx-auto text-[15px]">Voici un aperçu de mon expérience professionnelle en tant que développeur FullStack, couvrant des projets freelance et des collaborations avec diverses entreprises.</p>
+                </div><!--end grid-->
+
+                <div class="grid grid-cols-1 mt-8">
+                    <div class="relative after:content-[''] after:absolute after:top-0 ltr:md:after:right-0 ltr:md:after:left-0 rtl:md:after:left-0 rtl:md:after:right-0 after:w-px after:h-full md:after:m-auto after:border-s-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ms-3 md:ms-0">
+
+                        <!-- Développeur Web Frontend, PTR-Niger -->
+                        <div class="ms-8 md:ms-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-amber-500 md:after:mx-auto ltr:md:after:right-0 ltr:md:after:left-0 rtl:md:after:left-0 rtl:md:after:right-0 ltr:after:-left-9 rtl:after:-right-9 before:content-[''] before:absolute md:before:mx-auto ltr:md:before:right-0 ltr:md:before:left-0 ltr:before:-left-11 rtl:md:before:left-0 rtl:md:before:right-0 rtl:before:-right-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
+                            <div class="grid md:grid-cols-2">
+                                <div class="md:text-end md:me-8 relative">
+                                    <img src="assets/images/logos/ptr-logo.gif"
+                                         class="rounded-full h-14 w-14 md:ms-auto" alt="Logo PTR-Niger">
+                                    <h5 class="my-2 font-semibold text-lg">PTR-Niger, Niamey</h5>
+                                    <h6 class="text-sm mb-0">Février 2020 - Juillet 2021</h6>
+                                </div>
+                                <div class="text-start md:ms-8 mt-6 md:mt-0">
+                                    <h5 class="title mb-1 font-semibold">Développeur Web Frontend</h5>
+                                    <p class="mt-3 mb-0 text-slate-400 text-[15px]">Création de sites web responsives et optimisés pour le référencement. Utilisation de frameworks modernes comme React pour la conception d'interfaces utilisateur attrayantes et dynamiques.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Développeur FullStack, Icall26 -->
+                        <div class="mt-12 ms-8 md:ms-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-amber-500 md:after:mx-auto ltr:md:after:right-0 ltr:md:after:left-0 ltr:after:-left-9 rtl:md:after:left-0 rtl:md:after:right-0 rtl:after:-right-9 before:content-[''] before:absolute md:before:mx-auto ltr:md:before:right-0 ltr:md:before:left-0 ltr:before:-left-11 rtl:md:before:left-0 rtl:md:before:right-0 rtl:before:-right-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
+                            <div class="grid md:grid-cols-2">
+                                <div class="text-start md:ms-8 relative md:order-2">
+                                    <img src="assets/images/logos/icall26-logo.svg"
+                                         class="rounded-full h-14 w-14 md:me-auto" alt="Logo Icall26">
+                                    <h5 class="my-2 font-semibold text-lg">Icall26, Saint-gervais</h5>
+                                    <h6 class="text-sm mb-0">Janvier 2021 - Septembre 2024</h6>
+                                </div>
+                                <div class="ltr:float-left rtl:float-right md:text-end md:me-8 mt-6 md:mt-0 md:order-1">
+                                    <h5 class="title mb-1 font-semibold">Développeur FullStack</h5>
+                                    <p class="mt-3 mb-0 text-slate-400 text-[15px]">Création et maintenance de systèmes CRM, gestion des mises à jour et des correctifs logiciels. Formation des utilisateurs et analyse des besoins des clients pour proposer des améliorations et des nouvelles fonctionnalités.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Développeur Freelance -->
+                        <div class="mt-12 ms-8 md:ms-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-amber-500 md:after:mx-auto ltr:md:after:right-0 ltr:md:after:left-0 ltr:after:-left-9 rtl:md:after:left-0 rtl:md:after:right-0 rtl:after:-right-9 before:content-[''] before:absolute md:before:mx-auto ltr:md:before:right-0 ltr:md:before:left-0 ltr:before:-left-11 rtl:md:before:left-0 rtl:md:before:right-0 rtl:before:-right-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
+                            <div class="grid md:grid-cols-2">
+                                <div class="md:text-end md:me-8 relative">
+                                    <img src="assets/images/logos/circle-logo.png"
+                                         class="rounded-full h-9 w-9 md:ms-auto" alt="Logo Freelance">
+                                    <h5 class="my-2 font-semibold text-lg">Freelance, Niamey</h5>
+                                    <h6 class="text-sm mb-0">2021 - 2024</h6>
+                                </div>
+                                <div class="ltr:float-left rtl:float-right text-start md:ms-8 mt-6 md:mt-0">
+                                    <h5 class="title mb-1 font-semibold">Développeur Web et Mobile</h5>
+                                    <p class="mt-3 mb-0 text-slate-400 text-[15px]">Travail sur divers projets en développement web et mobile pour des clients variés. Collaboration avec des entreprises pour développer des applications sur mesure, gestion de projets de la conception à la livraison, et support technique continu.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section><!--end section-->
+        <!-- End -->
+
+        <section class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="projects">
+            <div class="container">
+                <div class="grid grid-cols-1 pb-8 text-center">
+                    <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Quelque Projets</h3>
+                    <p class="text-slate-400 max-w-xl mx-auto text-[15px]">Voici quelques projets sur lesquels j'ai travaillé. Ces projets montrent mes compétences en développement web, ainsi que ma capacité à résoudre des problèmes et à créer des solutions innovantes. j'en travailler sur plus de 100 project dans ma carière</p>
+                </div><!--end grid-->
+
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
+
+                    <!-- Card Project 1 -->
+                    <div class="bg-white dark:bg-slate-900 shadow-md hover:shadow-lg transition duration-500 rounded-lg overflow-hidden">
+                        <img src="assets/images/project%20/ptrniger.png" alt="Project eLearning" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h4 class="text-lg font-semibold mb-2">Projet eLearning</h4>
+                            <p class="text-slate-400 mb-4">Développement d'une plateforme eLearning pour la formation en ligne, intégrant des cours, des quiz interactifs et un suivi des progrès des apprenants.</p>
+                            <a href="https://ptrniger.com" target="_blank" class="text-amber-500 hover:text-amber-600">Voir le projet <i class="uil uil-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Card Project 2 -->
+                    <div class="bg-white dark:bg-slate-900 shadow-md hover:shadow-lg transition duration-500 rounded-lg overflow-hidden">
+                        <img src="assets/images/project%20/pizza.png" alt="Projet de Vente de Pizza" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h4 class="text-lg font-semibold mb-2">Site de Vente de Pizza</h4>
+                            <p class="text-slate-400 mb-4">Développement d'un site e-commerce spécialisé dans la vente de pizzas. Fonctionnalités incluant la commande en ligne, le suivi des livraisons et la gestion des clients.</p>
+                            <a href="https://pizza.nigerdev.com" target="_blank" class="text-amber-500 hover:text-amber-600">Voir le projet <i class="uil uil-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Card Project 3 -->
+                    <div class="bg-white dark:bg-slate-900 shadow-md hover:shadow-lg transition duration-500 rounded-lg overflow-hidden">
+                        <img src="assets/images/project%20/nigerdev.png" alt="Projet de Site d'Entreprise" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h4 class="text-lg font-semibold mb-2">Site d'Entreprise NigerDev</h4>
+                            <p class="text-slate-400 mb-4">Création d'un site web corporate pour NigerDev, présentant les services offerts, les projets réalisés et permettant aux clients de prendre contact facilement.</p>
+                            <a href="https://nigerdev.com" target="_blank" class="text-amber-500 hover:text-amber-600">Voir le projet <i class="uil uil-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                </div><!--end grid-->
+
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
+
+                    <!-- Card Project 4 -->
+                    <div class="bg-white dark:bg-slate-900 shadow-md hover:shadow-lg transition duration-500 rounded-lg overflow-hidden">
+                        <img src="assets/images/project%20/gestion.png" alt="Projet de Gestion Commerciale" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h4 class="text-lg font-semibold mb-2">Application de Gestion Commerciale</h4>
+                            <p class="text-slate-400 mb-4">Développement d'une application de gestion commerciale incluant la gestion des stocks, la facturation, et le suivi des ventes. Destinée aux entreprises de taille moyenne.</p>
+                            <a href="https://gestion.nigerdev.com" target="_blank" class="text-amber-500 hover:text-amber-600">Voir le projet <i class="uil uil-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Card Project 5 -->
+                    <div class="bg-white dark:bg-slate-900 shadow-md hover:shadow-lg transition duration-500 rounded-lg overflow-hidden">
+                        <img src="assets/images/project%20/scolaire.png" alt="Projet de Gestion Scolaire" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h4 class="text-lg font-semibold mb-2">Application de Gestion Scolaire</h4>
+                            <p class="text-slate-400 mb-4">Développement d'une solution pour la gestion des établissements scolaires, incluant l'inscription des élèves, la gestion des notes et des emplois du temps.</p>
+                            <a href="https://scolaire.nigerdev.com" target="_blank" class="text-amber-500 hover:text-amber-600">Voir le projet <i class="uil uil-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Card Project 6 -->
+                    <div class="bg-white dark:bg-slate-900 shadow-md hover:shadow-lg transition duration-500 rounded-lg overflow-hidden">
+                        <img src="assets/images/project%20/nigerdev.png" alt="Site Web NigerDev" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h4 class="text-lg font-semibold mb-2">Site Web NigerDev</h4>
+                            <p class="text-slate-400 mb-4">Développement du site web officiel de NigerDev, intégrant un portfolio des projets réalisés, un blog technique et une plateforme de contact pour les clients.</p>
+                            <a href="https://nigerdev.com" target="_blank" class="text-amber-500 hover:text-amber-600">Voir le projet <i class="uil uil-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                </div><!--end grid-->
+
+            </div><!--end container-->
+        </section><!--end section-->
+
+
+
+        <!-- Start -->
+        <section class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="contact">
+            <div class="container">
+                <div class="grid grid-cols-1 pb-8 text-center">
+                    <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Prenez Contact !</h3>
+                    <p class="text-slate-400 max-w-xl mx-auto text-[15px]">Je suis disponible pour des projets freelance et des opportunités de collaboration. N'hésitez pas à me contacter pour toute question ou proposition.</p>
+                </div><!--end grid-->
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 md:grid-cols-2 mt-8 items-center gap-[30px]">
+                    <div class="lg:col-span-8">
+                        <div class="p-6 rounded-md shadow bg-white dark:bg-slate-900">
+                            <form method="post" name="myForm" id="myForm" onsubmit="return validateForm()">
+                                <p class="mb-0" id="error-msg"></p>
+                                <div id="simple-msg"></div>
+                                <div class="grid lg:grid-cols-12 lg:gap-5">
+                                    <div class="lg:col-span-6 mb-5">
+                                        <input name="name" id="name" type="text" class="form-input w-full py-2 px-3 border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded h-10 outline-none bg-transparent focus:border-amber-500/50 dark:focus:border-amber-500/50 focus:shadow-none focus:ring-0 text-[15px]" placeholder="Nom : Mounkaila Boubacar">
+                                    </div>
+
+                                    <div class="lg:col-span-6 mb-5">
+                                        <input name="email" id="email" type="email" class="form-input w-full py-2 px-3 border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded h-10 outline-none bg-transparent focus:border-amber-500/50 dark:focus:border-amber-500/50 focus:shadow-none focus:ring-0 text-[15px]" placeholder="Email : Mounkaila144@gmail.com">
+                                    </div><!--end col-->
+                                </div>
+
+                                <div class="grid grid-cols-1">
+                                    <div class="mb-5">
+                                        <input name="subject" id="subject" class="form-input w-full py-2 px-3 border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded h-10 outline-none bg-transparent focus:border-amber-500/50 dark:focus:border-amber-500/50 focus:shadow-none focus:ring-0 text-[15px]" placeholder="Sujet :">
+                                    </div>
+
+                                    <div class="mb-5">
+                                        <textarea name="comments" id="comments" class="form-input w-full py-2 px-3 border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded h-28 outline-none bg-transparent focus:border-amber-500/50 dark:focus:border-amber-500/50 focus:shadow-none focus:ring-0 text-[15px]" placeholder="Message :"></textarea>
+                                    </div>
+                                </div>
+                                <button type="submit" id="submit" name="send" class="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md h-11 justify-center flex items-center">Envoyer le Message</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-4">
+                        <div class="lg:ms-8">
+                            <div class="flex">
+                                <div class="icons text-center mx-auto">
+                                    <i class="uil uil-phone block rounded text-2xl dark:text-white mb-0"></i>
+                                </div>
+
+                                <div class="flex-1 ms-6">
+                                    <h5 class="text-[17px] dark:text-white mb-2 font-medium">Téléphone</h5>
+                                    <a href="tel:+22797977199" class="text-slate-400 text-[15px]">+227 97977199</a>
+                                </div>
+                            </div>
+
+                            <div class="flex mt-4">
+                                <div class="icons text-center mx-auto">
+                                    <i class="uil uil-envelope block rounded text-2xl dark:text-white mb-0"></i>
+                                </div>
+
+                                <div class="flex-1 ms-6">
+                                    <h5 class="text-[17px] dark:text-white mb-2 font-medium">Email</h5>
+                                    <a href="mailto:Mounkaila144@gmail.com" class="text-slate-400 text-[15px]">Mounkaila144@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="flex mt-4">
+                                <div class="icons text-center mx-auto">
+                                    <i class="uil uil-map-marker block rounded text-2xl dark:text-white mb-0"></i>
+                                </div>
+
+                                <div class="flex-1 ms-6">
+                                    <h5 class="text-[17px] dark:text-white mb-2 font-medium">Adresse</h5>
+                                    <p class="text-slate-400 text-[15px] mb-2">Niamey, Niger</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end grid-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+
+        <!-- Footer Start -->
+        <footer class="footer bg-dark-footer relative text-gray-200 dark:text-gray-200">
+            <div class="py-[30px] px-0 border-t border-slate-800">
+                <div class="container text-center">
+                    <div class="grid lg:grid-cols-12 md:grid-cols-3 grid-cols-1 items-center">
+                        <div class="lg:col-span-3 md:text-start text-center">
+                            <a href="#" class="text-[22px] focus:outline-none">
+                                <img src="assets/images/logo-d.png" class="mx-auto md:me-auto md:ms-0" alt="Logo de Mounkaila Boubacar">
+                            </a>
+                        </div>
+
+                        <div class="lg:col-span-5 text-center mt-6 md:mt-0">
+                            <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Mounkaila Boubacar. Conçu avec <i class="mdi mdi-heart text-red-600"></i> par Mounkaila Boubacar.</p>
+                        </div>
+
+                        <ul class="lg:col-span-4 list-none md:text-end text-center mt-6 md:mt-0">
+                            <li class="inline"><a href="https://nigerdev.com" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-amber-500 dark:hover:border-amber-500 hover:bg-amber-500 dark:hover:bg-amber-500"><i class="uil uil-globe align-middle" title="NigerDev"></i></a></li>
+                            <li class="inline"><a href="https://github.com/Mounkaila144" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-amber-500 dark:hover:border-amber-500 hover:bg-amber-500 dark:hover:bg-amber-500"><i class="uil uil-github" title="GitHub"></i></a></li>
+                            <li class="inline"><a href="https://www.linkedin.com/in/tonprofil" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-amber-500 dark:hover:border-amber-500 hover:bg-amber-500 dark:hover:bg-amber-500"><i class="uil uil-linkedin" title="LinkedIn"></i></a></li>
+                            <li class="inline"><a href="mailto:Mounkaila144@gmail.com" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-amber-500 dark:hover:border-amber-500 hover:bg-amber-500 dark:hover:bg-amber-500"><i class="uil uil-envelope align-middle" title="Email"></i></a></li>
+                        </ul><!--end icon-->
+                    </div><!--end grid-->
+                </div><!--end container-->
+            </div>
+        </footer>
+<!--end footer-->
+        <!-- Footer End -->
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 right-5 h-9 w-9 text-center bg-amber-500 text-white leading-9"><i class="uil uil-arrow-up"></i></a>
+        <!-- Back to top -->
+
+        <!-- Switcher -->
+        <div class="fixed top-1/4 -right-1 z-3">
+            <span class="relative inline-block rotate-90">
+                <input type="checkbox" class="checkbox opacity-0 absolute" id="chk">
+                <label class="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8" for="chk">
+                    <i class="uil uil-moon text-[20px] text-yellow-500"></i>
+                    <i class="uil uil-sun text-[20px] text-yellow-500"></i>
+                    <span class="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"></span>
+                </label>
+            </span>
+        </div>
+        <!-- Switcher -->
+
+        <!-- LTR & RTL Mode Code -->
+        <div class="fixed top-[40%] -right-3 z-50">
+            <a href="" id="">
+                <span class="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-medium ltr:block rtl:hidden">Mounkaila</span>
+            </a>
+        </div>
+        <!-- LTR & RTL Mode Code -->
+
+        <!-- JAVASCRIPTS -->
+        <script src="assets/libs/feather-icons/feather.min.js"></script>
+        <script src="assets/libs/gumshoejs/gumshoe.polyfills.min.js"></script>
+        <script src="assets/libs/tobii/js/tobii.min.js"></script>
+        <script src="assets/libs/tiny-slider/min/tiny-slider.js"></script>
+        <script src="assets/js/plugins.init.js"></script>
+        <script src="assets/js/app.js"></script>
+        <!-- JAVASCRIPTS -->
+    </body>
+</html>
